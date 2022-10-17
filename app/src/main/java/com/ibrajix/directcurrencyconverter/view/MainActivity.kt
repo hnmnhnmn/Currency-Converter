@@ -80,7 +80,7 @@ class MainActivity : AppCompatActivity() {
             val countryCode = getCountryCode(item.toString())
             val currencySymbol = getSymbol(countryCode)
             selectedItem1 = currencySymbol
-            binding.txtFirstCurrencyName.setText(selectedItem1)
+            binding.txtFirstCurrencyName.text = selectedItem1
         }
 
 
